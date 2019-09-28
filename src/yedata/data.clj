@@ -87,7 +87,6 @@
      :type (.getTypeName cm)}))
 
 (defn- read-col
-  "col-type에 따라 v를"
   [col-type v]
   (if (nil? v)
     v
