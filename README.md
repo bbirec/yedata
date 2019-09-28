@@ -64,7 +64,7 @@ Aurora Serverless Data API를 [yesql](https://github.com/krisajenkins/yesql) 스
                 "rds-data:ExecuteStatement",
                 "rds-data:RollbackTransaction"
             ],
-            "Resource": "arn:aws:rds:{REGION}:{Account ID}:cluster:{DB cluster id}"
+            "Resource": "{Cluster ARN}"
         }
     ]
 }
